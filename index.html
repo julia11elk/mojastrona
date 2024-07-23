@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Kowalski - Fotograf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0073e6; /* niebieski */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #009933; /* zielony */
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .testimonial, .blog-post {
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jan Kowalski - Fotograf</h1>
+    <p>Profesjonalna fotografia na każdą okazję</p>
+</header>
+
+<nav>
+    <a href="#about">O mnie</a>
+    <a href="#gallery">Galeria</a>
+    <a href="#blog">Blog</a>
+    <a href="#testimonials">Referencje</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Jestem Jan Kowalski, pasjonatem fotografii z wieloletnim doświadczeniem. Specjalizuję się w fotografii portretowej, ślubnej oraz krajobrazowej. Moim celem jest uchwycenie niezapomnianych chwil i emocji w każdym zdjęciu.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Galeria</h2>
+        <img src="https://via.placeholder.com/300" alt="Przykładowe zdjęcie 1">
+        <img src="https://via.placeholder.com/300" alt="Przykładowe zdjęcie 2">
+        <img src="https://via.placeholder.com/300" alt="Przykładowe zdjęcie 3">
+        <img src="https://via.placeholder.com/300" alt="Przykładowe zdjęcie 4">
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article class="blog-post">
+            <h3>Najnowsza sesja ślubna</h3>
+            <p>W ubiegły weekend miałem przyjemność fotografować ślub Ani i Tomka. Zobaczcie kilka ujęć z tego wyjątkowego dnia.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Poradnik: Jak przygotować się do sesji portretowej</h3>
+            <p>Przygotowanie do sesji portretowej to klucz do udanych zdjęć. W tym artykule podzielę się kilkoma wskazówkami, które pomogą Ci poczuć się swobodnie przed obiektywem.</p>
+        </article>
+    </section>
+
+    <section id="testimonials">
+        <h2>Referencje</h2>
+        <div class="testimonial">
+            <p>"Jan jest niesamowitym fotografem! Uchwycił wszystkie ważne momenty naszego ślubu w sposób, który przekroczył nasze oczekiwania."</p>
+            <p>- Kasia i Piotr</p>
+        </div>
+        <div class="testimonial">
+            <p>"Sesja z Janem to czysta przyjemność. Potrafi stworzyć niesamowitą atmosferę, dzięki której zdjęcia wychodzą naturalnie i pięknie."</p>
+            <p>- Marta</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Jeśli masz pytania lub chcesz umówić się na sesję, skontaktuj się ze mną:</p>
+        <p>Email: <a href="mailto:jan.kowalski@example.com">jan.kowalski@example.com</a></p>
+        <p>Telefon: +48 123 456 789</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Jan Kowalski - Wszystkie prawa zastrzeżone</p>
+</footer>
+
+</body>
+</html>
